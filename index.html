@@ -2,12 +2,15 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Yew App</title>
-    <link rel="modulepreload" href="/LifeStats/LifeStats-928bdce82086c209.js" crossorigin="anonymous" integrity="sha384-APzrMeapVIaMNc5iXcDWRuxCd390dUnbYxL8qK6qZqItfPqMyny9A0mepc++ULyN"><link rel="preload" href="/LifeStats/LifeStats-928bdce82086c209_bg.wasm" crossorigin="anonymous" integrity="sha384-T9Py7509FQOpPvPoATBH7pxyEQVhzNhv91LsMgDFIIBfNm/cyLkOKrOYOh6o2eP8" as="fetch" type="application/wasm"></head>
+        <title>LifeStats</title>
+        <link rel="stylesheet" href="/LifeStats/styles-731ce1584071318f.css" integrity="sha384-fHU3hnRN8AxdM6szsQKWb2NXT2K/6Ucxs6cXx/G8/ZRNdml5FMpjURFb5L6Pw5L1"/>
+    <link rel="modulepreload" href="/LifeStats/LifeStats-c70aa5a5621cfb9b.js" crossorigin="anonymous" integrity="sha384-1lor0pylD0C38yXxBzZB0T5NA+IbqGOvfoY6XDkpyhnkalER31hFEOoDiXFdUBaF"><link rel="preload" href="/LifeStats/LifeStats-c70aa5a5621cfb9b_bg.wasm" crossorigin="anonymous" integrity="sha384-OiZDbutFq6UK6AnKFLCkCstAjL9YOhdery4umkjDH42owWXRe5ThGV3l7rZZFiq6" as="fetch" type="application/wasm"></head>
     <body>
+        <div id="app"></div>
+    
 <script type="module">
-import init, * as bindings from '/LifeStats/LifeStats-928bdce82086c209.js';
-const wasm = await init({ module_or_path: '/LifeStats/LifeStats-928bdce82086c209_bg.wasm' });
+import init, * as bindings from '/LifeStats/LifeStats-c70aa5a5621cfb9b.js';
+const wasm = await init({ module_or_path: '/LifeStats/LifeStats-c70aa5a5621cfb9b_bg.wasm' });
 
 
 window.wasmBindings = bindings;
